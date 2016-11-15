@@ -10,11 +10,11 @@ public class testMain extends Thread{
 				for(int i = 0; i <10; i++)
 				{
 					try{
-		                  account.add(100);
-		                  Thread.sleep(250);
-		               }catch(InterruptedException e){
-		                  e.printStackTrace();
-		               }	
+		                  		account.add(100);
+		                  		Thread.sleep(250);
+		               		}catch(InterruptedException e){
+		                  		e.printStackTrace();
+		               		}	
 				}
 			}
 		};
@@ -24,11 +24,11 @@ public class testMain extends Thread{
 				for(int j = 0; j < 10 ; j++)
 				{
 					try{
-		                  account.withDraw(100);
-		                  Thread.sleep(250);
-		               }catch(InterruptedException e){
-		                  e.printStackTrace();
-		               }
+		                  		account.delete(100);
+		                  		Thread.sleep(250);
+		               		}catch(InterruptedException e){
+		                  		e.printStackTrace();
+		               		}
 				}
 			}
 		};
